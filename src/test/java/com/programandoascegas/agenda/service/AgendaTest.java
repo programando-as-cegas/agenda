@@ -55,7 +55,6 @@ class AgendaTest {
         assertEquals(1, agenda.getContatos().size());
 
         boolean excluido = agenda.excluir(1);
-
         assertFalse(excluido);
         assertEquals(1, agenda.getContatos().size());
     }
