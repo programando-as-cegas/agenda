@@ -80,7 +80,7 @@ public class Menu {
 
     private void listarContatos(List<Contato> contatos) {
         for (int i = 0; i < contatos.size(); i++) {
-            System.out.println(String.format("%d - %s - %s", i, contatos.get(i).getNome(), contatos.get(i).getTelefone()));
+            System.out.printf("%d - %s - %s%n", i, contatos.get(i).getNome(), contatos.get(i).getTelefone());
         }
     }
 }

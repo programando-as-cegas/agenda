@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Agenda {
 
-    private List<Contato> contatos;
+    private final List<Contato> contatos;
 
     public List<Contato> getContatos() {
         return contatos;
